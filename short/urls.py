@@ -16,9 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from urlshortner.views import dashboard ,deleteurl, home, generate 
-
+""" defining URL patters for urlshortner"""
 urlpatterns = [
-    """ defining URL patters for urlshortner"""
     path('admin/', admin.site.urls),
     path('', dashboard, name="dashboard"),
     path('dashboard/', dashboard, name="dashboard"),
