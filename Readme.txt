@@ -1,0 +1,10 @@
+Steps to setup virtual environment :
+1. Through command prompt of the project directory type in "pipenv shell"
+2. Install the django package using "pip install django"
+3. Install psycopg2 package using "pip install psycopg2"
+
+running the code :
+1. Create the migartion files through "python manage.py makemigrations"
+2. Migrate the code using "python manage.py migrate"
+3. run the server through "python manage.py runserver"
+to stop the server press Ctrl + c on terminal
