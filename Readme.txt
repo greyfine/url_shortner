@@ -8,3 +8,8 @@ running the code :
 2. Migrate the code using "python manage.py migrate"
 3. run the server through "python manage.py runserver"
 to stop the server press Ctrl + c on terminal
+
+If had more time :
+1. Probably would have tried to learn the framework first and then build the service
+2. would have used user authentication service to store user info 
+3. HTML file templates could have been simplifed a bit 
